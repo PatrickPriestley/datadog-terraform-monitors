@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(terraform:*)",
+      "Bash(for module in golden-signals infrastructure-monitors database-monitors application-monitors security-monitors business-monitors)",
+      "Bash(do)",
+      "Bash(done)",
+      "WebFetch(domain:docs.datadoghq.com)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
